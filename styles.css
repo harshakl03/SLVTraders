@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+        
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    margin:0px;
+}
+
+#groceryImage{
+    opacity: 0.8;
+    width: 100%;
+}
+
+.image{
+    width: 800px;
+}
+
+#vegetables{
+    width: 70%;
+}
+
+.info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30px
+}
+
+.gallery-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-item>p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.contact{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+.fancy-button {
+    font-size: 20px;
+    padding: 15px 30px;
+    background: linear-gradient(45deg, #ff6f61, #de5069, #9b5191);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+.fancy-button:hover {
+    background: linear-gradient(45deg, #9b5191, #de5069, #ff6f61);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+a{
+    color: white;
+}
